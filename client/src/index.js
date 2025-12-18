@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Home from '../src/pages/Home';
+import Home from './pages/Home';
 import CreatePost from './pages/CreatePost';
 import Profile from './pages/Profile';
 import NotFound from './pages/NotFound';
