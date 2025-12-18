@@ -1,0 +1,11 @@
+.blog-post {
+    border: 1px black solid;
+    width: 70%;
+    margin: 10px;
+}
+
+.body-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

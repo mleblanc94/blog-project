@@ -7,6 +7,7 @@ import Home from '../src/pages/Home';
 import CreatePost from './pages/CreatePost';
 import Profile from './pages/Profile';
 import NotFound from './pages/NotFound';
+import { BlogProvider } from './context/BlogContext';
 
 const router = createBrowserRouter([
   {
@@ -31,5 +32,7 @@ const router = createBrowserRouter([
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+    <BlogProvider>
     <RouterProvider router={router} />
+    </BlogProvider>
 );
